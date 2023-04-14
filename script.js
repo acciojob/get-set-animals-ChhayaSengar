@@ -3,6 +3,9 @@ class Animal {
 	constructot(species){
 		this.species = species;
 	}
+get species() {
+    return this._species;
+  }
 	makeSound()[
 		console.log("Animal Sound.")
 	]
