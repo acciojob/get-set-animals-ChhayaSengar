@@ -1,6 +1,6 @@
 //complete this code
 class Animal {
-	constructot(species){
+	constructor(species){
 		this.species = species;
 	}
 
